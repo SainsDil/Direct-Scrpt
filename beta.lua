@@ -82,22 +82,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/996054378861559899/_ZKaOOdIxArjew6ZsXS6h9QjLHvXer5_xUzyZTWqO2OF2yyodVSQ-_bD8jK_gCH8IyS5",
         ["Auto Sending"] = true,
-        ["Category"] = {
-            {Tier = "Secret", Variant = "Stone"},
-            {Tier = "Secret", Variant = "Gold"},
-            {Tier = "Secret", Variant = "Ghost"},
-            {Tier = "Secret", Variant = "Radioactive"},
-            {Tier = "Secret", Variant = "Lightning"},
-            {Tier = "Secret", Variant = "Midnight"},
-            {Tier = "Secret", Variant = "Fairy Dust"},
-            {Tier = "Secret", Variant = "Gemstone"},
-            {Tier = "Secret", Variant = "Corrupt"},
-            {Tier = "Secret", Variant = "Frozen"},
-            {Tier = "Secret", Variant = "Galaxy"},
-            {Tier = "Secret", Variant = "Holographic"},
-            {Tier = "Secret", Variant = "Leviathan Rage"},
-            {Name = "Ruby", Variant = "Gemstone"},
-        },
+        ["Category"] = {"Secret"},
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1025982687619584150/2h_1Q-Ut2L9RGlu9oDFwYbXigizoeXEPnzy0M4IUCkIESlLp3Nla-4z-aZpxju3MyGkz",
     },
     ["Weather"] = {
