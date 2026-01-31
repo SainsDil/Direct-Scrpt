@@ -122,7 +122,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enchant List"] = {
             "Mutation Hunter III",
             "Mutation Hunter II",
-            "Cursed I"
+            "Cursed I",
             "SECRET Hunter",
         },
         ["Second Enchant"] = true,
