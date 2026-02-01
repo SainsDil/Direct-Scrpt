@@ -82,7 +82,10 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/996054378861559899/_ZKaOOdIxArjew6ZsXS6h9QjLHvXer5_xUzyZTWqO2OF2yyodVSQ-_bD8jK_gCH8IyS5",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},
+        ["Category"] = {
+            "Secret",
+            {Name = "Ruby", Variant = "Gemstone"},
+        },
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1025982687619584150/2h_1Q-Ut2L9RGlu9oDFwYbXigizoeXEPnzy0M4IUCkIESlLp3Nla-4z-aZpxju3MyGkz",
     },
     ["Weather"] = {
@@ -110,9 +113,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
+            "Ghost Shark Hunt",
             ["Ancient Lochness Monster"] = true,
             "Megalodon Hunt"
-            "Ghost Shark Hunt",
             "Shark Hunt",
         },
     },
