@@ -1,7 +1,7 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = false,
-        ["Random Result"] = true,
+        ["Auto Perfect"] = true,
+        ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -82,7 +82,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/996054378861559899/_ZKaOOdIxArjew6ZsXS6h9QjLHvXer5_xUzyZTWqO2OF2yyodVSQ-_bD8jK_gCH8IyS5",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},
+        ["Category"] = {"Secret", {Name = "Ruby", Variant = "Gemstone"}},
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1025982687619584150/2h_1Q-Ut2L9RGlu9oDFwYbXigizoeXEPnzy0M4IUCkIESlLp3Nla-4z-aZpxju3MyGkz",
     },
     ["Weather"] = {
@@ -107,12 +107,13 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
+            ["Ancient Lochness Monster"] = true,
+            "Megalodon Hunt"
             "Ghost Shark Hunt",
             "Shark Hunt",
-            ["Christmas Cave"] = false,
         },
     },
     ["Enchant"] = {
@@ -133,6 +134,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Queen Crab",
         },
         ["Second Enchant List"] = {
+            "Mutation Hunter III",
+            "Mutation Hunter II",
             "Cursed I",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
@@ -158,7 +161,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Tropical Grove"] = {"Luck Rod", "Midnight Rod", "Element Rod", "Ghostfinn Rod"},
+            ["Tropical Grove"] = {"Luck Rod", "Midnight Rod"},
+            ["Ocean"] = {"Ghosfinn Rod", "Element Rod"}
         },
         ["Endgame"] = "",
     },
