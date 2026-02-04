@@ -74,6 +74,10 @@ _G.FishItConfig = _G.FishItConfig or {
             "Giant Squid",
             "Blob Shark",
             "Ghost Shark",
+            "Elshark Gran Maja",
+            "Bone Whale",
+            "King Jelly",
+            "Mosasaur Shark",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
 
@@ -102,8 +106,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 24,
-            "Mutation Totem",
+            ["Luck Totem"] = 24,
+            "Luck Totem",
         },
     },
     ["Event"] = {
@@ -129,11 +133,15 @@ _G.FishItConfig = _G.FishItConfig or {
             "Great Whale",
             "King Crab",
             "Queen Crab",
+            "Blob Shark",
+            "Skeleton Narhwal",
         },
         ["Second Enchant List"] = {
             "Mutation Hunter III",
             "Mutation Hunter II",
             "Cursed I",
+            "Perfection",
+            "Reeler I",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
