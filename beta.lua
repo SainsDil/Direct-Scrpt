@@ -21,7 +21,7 @@ _G.FishItConfig = _G.FishItConfig or {
             {Tier = "Mythic", Variant = "Galaxy"},
             {Tier = "Mythic", Variant = "Holographic"},
             {Tier = "Mythic", Variant = "Leviathan Rage"},
-            }
+            },
 
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = true,
